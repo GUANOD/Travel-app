@@ -1,0 +1,13 @@
+html, body, #root{
+  height:100%;
+  overflow: hidden;
+}
+
+main{
+  height: calc(100% - 96px * 2) ;
+  overflow:auto;
+  max-width: 1000px;
+  padding: 0 5vw;
+  margin: 6rem auto;
+  width: 90vw;
+}
