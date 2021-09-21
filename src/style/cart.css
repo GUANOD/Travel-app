@@ -1,138 +1,141 @@
-.cartContainer{
-    position:fixed;
-    top:0;
-    left:0;
-    height: 100%;
-    width:100%;
-    background-color: rgba(0, 0, 0, 0.609);
-    z-index: 1;
+.cartContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.609);
+  z-index: 1;
 }
 
-.cart{
-    margin:100px auto;
-    width:80vw;
-    height:80vh;
-    overflow-y: scroll;
-    background-color: seashell;
-    border-radius: 20px;
-    position: relative;
+.cart {
+  margin: 100px auto;
+  width: 80vw;
+  height: 80vh;
+  overflow-y: scroll;
+  background-color: seashell;
+  border-radius: 20px;
+  position: relative;
 }
 
-.false{
-    visibility: hidden;
+.false {
+  visibility: hidden;
 }
 
-.item{
-    display: flex;
-    flex-flow: row nowrap;
-    margin: 10px;
-    justify-content:space-evenly;
-    border: solid #823329 ;
-    border-radius: 10px;
+.item {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 10px;
+  justify-content: space-evenly;
+  border: solid #823329;
+  border-radius: 10px;
 }
 
-.pic{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
+.pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.changeQuant{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+.changeQuant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
-
-.pic img{
-    height: 80%;
-    max-height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-    border: solid #823329;
-    padding: 2px;
-    box-shadow: -10px 5px 10px rgba(0, 0, 0, 0.5);
+.pic img {
+  height: 80%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: solid #823329;
+  padding: 2px;
+  box-shadow: -10px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.info{
-    width: 30%;
-    margin: 10px;
+.info {
+  width: 30%;
+  margin: 10px;
 }
 
-.info .desc{
-    max-height: 20vh;
-    overflow: scroll;
+.info .desc {
+  max-height: 20vh;
+  overflow: scroll;
 }
 
-.info .price{
-    text-align: center;
-    background-color: rgb(105, 170, 41);
-    color:cornsilk;
-    font-weight: bold;
-} 
-
-.cartIcon p{
-    position: absolute;
-    top: 0;
-    right:0;
-    background-color:rgb(255, 255, 255);
-    padding: 10px 10px;
-    margin: 20px 35px;  
-    border-radius: 50%;
-    line-height: 0.5;
-    font-weight: bold;
-    border:solid #823329;
+.info .price {
+  text-align: center;
+  background-color: rgb(105, 170, 41);
+  color: cornsilk;
+  font-weight: bold;
 }
 
-.cartIcon img{
-    padding: 5px 5px;
-    margin: 30px 50px;  
-    position:absolute;
-    right:0;
-    top:0;
-    width: 40px;
-    background-color: #8233295d;
-    border-radius: 5px;
-    cursor:pointer;
-    transition: 0.5s;
+.cartIcon p {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 10px;
+  margin: 20px 35px;
+  border-radius: 50%;
+  line-height: 0.5;
+  font-weight: bold;
+  border: solid #823329;
 }
 
-.cartIcon img:hover{
-    background-color: #823329;
+.cartIcon img {
+  padding: 5px 5px;
+  margin: 30px 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  background-color: #8233295d;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
-.pic img{
-    width:100px;
+.cartIcon img:hover {
+  background-color: #823329;
 }
 
-.chevron{
-    width:50px;
+.pic img {
+  width: 100px;
 }
 
-.noItems{
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    padding: 50px;
-    background-color: #993c2f;
-    text-align: center;
-    border-radius: 10px;
-    cursor:pointer;
+.chevron {
+  width: 50px;
 }
 
-.noItems:hover{
-    background-color: #a54c40 ;
+.noItems {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  background-color: #993c2f;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-.noItems p{
-    color: antiquewhite;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
+.noItems:hover {
+  background-color: #a54c40;
 }
 
-.info button{
-    width: 50vw;
+.noItems p {
+  color: antiquewhite;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.info button {
+  width: 50vw;
+}
+
+.xButton {
+  width: 20%;
 }
